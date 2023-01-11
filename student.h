@@ -5,8 +5,8 @@ using namespace std;
 
 class Student{
  public:
-  Student();
-  ~Student();
+  //Student();
+  //~Student();
   char* getName();
  private:
   char Name[80];
