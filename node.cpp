@@ -1,5 +1,4 @@
 #include <iostream>
-#include "student.h"
 #include "node.h"
 
 using namespace std;
@@ -15,7 +14,7 @@ Node::~Node(){
 }
 
 void Node::setStudent(Student* studentNew){
-
+  student = studentNew;
 }
 
 Student* Node::getStudent(){
@@ -23,7 +22,7 @@ Student* Node::getStudent(){
 }
 
 void Node::setNext(Node* node){
-
+  next = node;
 }
 
 Node* Node::getNext(){

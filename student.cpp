@@ -4,9 +4,6 @@
 
 using namespace std;
 
-//Student::Student(){
-//}
-
 char* Student::getName(){
   return Name;
 }
